@@ -1,0 +1,66 @@
+nav a {
+  padding: 20px;
+  text-align: center;
+  color:  #eee;
+
+  background-color: #2c0c308a;
+ 
+
+  /*padding: 20px 40px;
+  text-decoration: none;
+  margin-top: 30px;
+  display: inline-block;
+  background-color: rgb(201, 53, 201);
+  border-radius: 4px;*/
+}
+nav a:visited, a:link {
+  color: #eee;
+}
+nav a:hover {
+  color: #bf03e5;
+  background-color: #ececec;
+}
+nav a.active {
+  color: #a0a300;
+}
+
+
+.navbar .nav-link.active {
+    background-color: lightblue;
+}
+
+.bg {
+    /* The image used */
+    background-image: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img(20).jpg");
+    /* Full height */
+    height: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+.section {
+    height: 100vh;
+  }
+  .mdb-scrollspy {
+    display: block;
+    position: fixed;
+    top: 0 !important;
+    right: 0;
+    li {
+      display: block;
+      padding: 1rem 1rem;
+      &:first-child {
+        padding-top: 0.5rem;
+    }
+      &:last-child {
+       padding-bottom: 0.5rem;
+      }
+    a {
+      &.active {
+        font-weight: bold;
+        }
+      }
+    }
+  }
